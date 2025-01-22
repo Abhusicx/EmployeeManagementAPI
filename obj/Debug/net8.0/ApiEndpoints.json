@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "EmployeeManagementAPi.Controllers.EmployeeController",
+    "Method": "CreateEmployee",
+    "RelativePath": "Employee",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employee",
+        "Type": "EmployeeManagementAPi.DTO.EmployeeRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmployeeManagementAPi.Controllers.EmployeeController",
+    "Method": "GetAllEmployee",
+    "RelativePath": "Employee",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmployeeManagementAPi.Controllers.EmployeeController",
+    "Method": "GetEmployeeByID",
+    "RelativePath": "Employee/{Empid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Empid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmployeeManagementAPi.Controllers.EmployeeController",
+    "Method": "updateEmployeeByID",
+    "RelativePath": "Employee/{Empid}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Empid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateEmployee",
+        "Type": "EmployeeManagementAPi.DTO.EmployeeRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmployeeManagementAPi.Controllers.EmployeeController",
+    "Method": "DeleteEmployeeByID",
+    "RelativePath": "Employee/{Empid}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Empid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
