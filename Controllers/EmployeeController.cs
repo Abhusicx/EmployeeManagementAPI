@@ -25,7 +25,7 @@ namespace EmployeeManagementAPi.Controllers
             }
 
             employees.Add(employee);
-            return CreatedAtAction(nameof(GetAllEmployee), new { Empid = employee.EmpId }, employee);
+            return CreatedAtAction(nameof(GetAllEmployee), new { Empid = employee.EmpId }, employee);    //through the internet
         }
 
         [HttpGet]
